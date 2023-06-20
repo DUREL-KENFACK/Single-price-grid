@@ -1,0 +1,55 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background: linear-gradient(hsl(218, 22%, 67%),hsl(204, 43%, 93%));
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items
+    : center;
+}
+.corps{
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(218, 22%, 67%);
+}
+.dessous{
+    display: flex;
+}
+.dessus{
+    padding: 5vh;
+    background:whitesmoke;
+}
+.gauche{
+    color: rgba(255, 255, 255, 0.747);
+    padding: 5vh;
+    background: hsl(179, 62%, 43%);
+}
+.droite{
+    color: rgba(255, 255, 255, 0.747);
+    background:rgb(0, 183, 255);
+    padding: 5vh; ;
+    padding-right: 20vh;
+}
+input{
+    margin-top:20px;
+    margin-left:5px;
+    color:whitesmoke;
+    background-color:hsl(71, 73%, 54%);
+    border: 0px;
+    border-radius: 7px;
+    text-align: center; 
+    padding: 10px;
+    width: 200px;  
+}
+@media(max-width:450px){
+    body{
+        height: auto;
+        width: auto;
+    }
+    .dessous{
+        flex-direction: column;
+    }
+}
